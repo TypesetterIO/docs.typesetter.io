@@ -2,6 +2,7 @@ theme: jekyll-theme-minimal
 title: Documentation for Typesetter
 description: Docs for both the Typsetter CLI and the main library.
 show_downloads: false
+is_project_page: false
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
