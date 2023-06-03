@@ -1,2 +1,3 @@
-# docs.typesetter.io
-Documentation site for Typesetter project
+# Typesetter Documentation
+
+Check out [docs.typesetter.io](https://docs.typesetter.io).
