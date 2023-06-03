@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Quick Start
+description: Put together a Typesetter project
 ---
 # Quick Start Guide
 
