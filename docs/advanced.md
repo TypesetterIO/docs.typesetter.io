@@ -30,6 +30,8 @@ The following Observers are available for you. They should all be prefixed by `T
 | Class | Definition | Parameters |
 | ----- | ---------- | ---------- |
 | `BreakToPageBreak` | Puts a page break after the template tag `{BREAK}` | The template to use - defaults to `{BREAK}` |
+| `Credits` | This adds a box to the last chapter HTML with a class called `credits-box`. The default theme should make that appear centered on a new last page. You can remove this if you wish. | The class to use on the box - default is `credits-box`. |
+| `DefaultMarkdownConfiguration` | This configures the markdown parser. You probably want to keep this one. Otherwise, if you'd like, you can generate a replacement to configure it on your own - which is only recommended for advanced users. | Languages to process - defaults to `['html', 'php', 'js']` - into codeblocks. |
 | `FirstElementInChapterCSSClass` | Puts a css class of `chapter-beginning` on the first element of every chapter except the first. | The class (defaults to `chapter-beginning`) and a boolean whether to skip the first chapter (default is `true`) |
 
 ## Chapter
