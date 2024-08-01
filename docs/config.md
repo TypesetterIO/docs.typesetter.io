@@ -44,6 +44,9 @@ Whether you're using the command line or Typesetter as a library, you have the f
 | `title`  | The Title of your book. | `Benjamin Button` |
 | `author` | The author of your book. | `F. Scott Fitzgerald` |
 | `theme` | The path to the folder which contains your theme info. This should at minimum have a `theme.html` file in it. | `bb` |
+| `content` | The path to the folder with your markdown in it | `./resources/content` |
+| `contentFilter` | A callable that is applied as a filter after the content has been gathered. Return `true` to keep, `false` to remove. | `fn() => true `|
+| `contentExtra` | A path that has extra content not associated directly with the main content. This is all content you want, no filtering. | `./resources/content-extra` |
 | `toc-enabled` | Should Table of Contents be generated after cover? | `false` |
 | `toc-links` | Should table of Contents link to the headers in your document? | `false` |
 | `toc-header` | What header with `#toc-header` html attribute text? Empty will not generate one. | `Contents` |
