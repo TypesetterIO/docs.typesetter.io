@@ -48,6 +48,7 @@ It contains a number of useful methods for you to interact with the content whil
 | `getTotalChapters()` | Returns an integer indicating how many total chapters there is to be parsed. |
 | `isFirstChapter()` | Returns a boolean indicating if you're dealing with the first chapter. |
 | `isLastChapter()` | Returns a boolean indicating if you're dealing with the last chapter. |
+| `getMetaData()` | If your content has YAML front matter, this will return an array of parsed properties from it. If not, an empty array. |
 
 If you'd like to just get some status updates or notifications and don't need to modify any content, check out Events.
 
